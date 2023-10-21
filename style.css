@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Esteban&display=swap');
+
+*{
+    border: none;
+    margin: 0;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #333634;
+}
+#container{
+    max-width: 600px;
+    min-width: 500px;
+    align-self: center;
+}
+button{
+    padding: 15px 30px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color:  #228B22;
+    color: #FFFFF0
+    ;
+}
+div{
+    background-color: #424743;
+    color: white;
+    font-style: oblique;
+    font-size: 1rem;
+    text-align: center;
+    padding: 2rem 0;
+    user-select: text;
+}
+#btn-textContainaer{
+    background-repeat: no-repeat;
+}
+#text-container{
+    display: none;
+    user-select: none;
+    background: transparent;
+    font-family: 'Esteban', cursive;
+    margin-top: 1rem;
+    max-height: fit-content;
+}
+img{
+    margin-top: 10px;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+}
