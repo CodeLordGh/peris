@@ -34,7 +34,7 @@ function loadTextFile() {
                 console.log(poem)
                 textContainer.textContent += poem.charAt(charIndex);
                 charIndex++;
-                setTimeout(loadTextFile, 45); // Adjust the time between characters
+                setTimeout(loadTextFile, 150); // Adjust the time between characters
             }
         })
         .catch(error => {
